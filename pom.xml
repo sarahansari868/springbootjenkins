@@ -7,7 +7,6 @@
     <groupId>com.sarahansari</groupId>
     <artifactId>springbootjenkins</artifactId>
     <version>1.0-SNAPSHOT</version>
-
     <packaging>war</packaging>
 
     <!-- Inherit defaults from Spring Boot -->
@@ -15,6 +14,7 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.2.0.RELEASE</version>
+        <relativePath/>
     </parent>
 
     <!-- Add typical dependencies for a web application -->
