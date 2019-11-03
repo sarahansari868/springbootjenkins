@@ -9,7 +9,7 @@ import java.util.Date;
 
 @RestController
 public class TimeNow {
-    @RequestMapping
+    @RequestMapping("/now")
     public String Index() {
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
         LocalDateTime now = LocalDateTime.now();
