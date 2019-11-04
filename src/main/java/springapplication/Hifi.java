@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Hifi {
     @RequestMapping("/myUrl")
     public String index(){
-        return "Hi"
-
+        return "Hi";
     }
 }
