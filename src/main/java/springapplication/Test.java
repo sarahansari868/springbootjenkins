@@ -9,5 +9,5 @@ public class Test {
     public String index()
 
     {
-        return ("Hi from Jwnkins");
+        return "Hi from Jwnkins";
     }}
